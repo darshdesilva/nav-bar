@@ -1,0 +1,96 @@
+/* #navigation-menu {
+    height: 64px;
+}
+
+#logo-main img {
+    float: left;
+    padding-left: 24px;
+    padding-top: 5px;
+    width: 3%;
+    padding-right: 15px;
+}
+
+#links ul li {
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.campusname {
+    padding-left: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+} */
+
+
+.logo {
+    float: left;
+    min-width: 15%;
+}
+
+ul li {
+    display: inline-flex;
+    list-style-type: none;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+a:link {
+text-decoration: none;    
+}
+
+.desktop a {
+    color: darkgrey;
+}
+
+.desktop a:hover {
+    color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar-brand h1 {
+    display: none;
+    }
+
+    .logo {
+    float: left;
+    width: 3rem;
+    }
+
+    .desktop {
+    display: none;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .mobile {
+    display: none;
+    } 
+
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    
+    
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .mobile {
+    display: none;
+    }
+  }
